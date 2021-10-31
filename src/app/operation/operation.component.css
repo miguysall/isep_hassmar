@@ -1,0 +1,97 @@
+.section_1 {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px;
+}
+
+.section_1 div {
+    margin-left: 9%;
+}
+
+.section_1 div p {
+    list-style: 1px;
+}
+
+.section_3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.para2 {
+    padding-left: 10%;
+}
+
+.date .p2 {
+    top: 0px;
+    padding-top: 140px;
+}
+
+.date .p3 {
+    top: 0px;
+    padding-top: 38px;
+}
+
+.date .p4 {
+    top: 0px;
+    padding-top: 275px;
+}
+
+.date p {
+    margin-right: 10px;
+}
+
+.date {
+    border-right: 4px rgb(186, 186, 189) solid;
+    margin-left: 20px;
+    height: 87vh;
+}
+
+.section_2 {
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    border: 1px rgb(12, 12, 12)solid;
+}
+
+.titre {
+    background-color: rgb(51, 49, 49);
+    color: white;
+}
+
+.titre h3 {
+    margin-left: 10px;
+}
+
+.titre_2 {
+    border-bottom: 4px rgb(186, 186, 189) solid;
+    height: 24px;
+}
+
+.section-content {
+    display: flex;
+    flex-direction: row;
+    justify-self: space-between;
+    margin-bottom: 50px;
+}
+
+.section_4 {
+    margin-top: 20px;
+    margin-left: 40px;
+    border-left: 1px rgb(12, 12, 12) solid;
+    border-right: 1px rgb(12, 12, 12) solid;
+}
+
+.section_4 p {
+    margin-left: 40px;
+}
+
+.section_4 button {
+    margin-left: 20%;
+}
+
+.text-center {
+    margin-left: 18%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 40%;
+}

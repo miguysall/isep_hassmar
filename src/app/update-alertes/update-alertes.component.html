@@ -1,0 +1,45 @@
+<div class="container">
+    <div class="card">
+        <div class="card-title">
+            <h2 class="text-center">Modifier un Alerte :</h2>
+        </div>
+        <form>
+            <div class="card-body">
+                <div class="md-2" style="margin-left: 20%; margin-right: 20%;">
+                    <label>ID Alertes</label>
+                    <input readonly type="number" [(ngModel)]="currentAlertes.idAlertes" name="idAlertes" class="form-control">
+                </div>
+
+                <div class="md-4" style="margin-left: 20%; margin-right: 20%;">
+                    <label>Niveau d'alertes</label>
+                    <input type="text" [(ngModel)]="currentAlertes.niveauAlertes" name="niveauAlertes" class="form-control">
+                </div>
+
+                <div class="md-4" style="margin-left: 20%; margin-right: 20%;">
+                    <label>Date Alertes</label>
+                    <input type="date" [ngModel]="currentAlertes.dateAlertes | date: 'yyyy-MM-dd'" (ngModelChange)=" currentAlertes.dateAlertes= $event" name="dateAlertes" class="form-control">
+                </div>
+
+                <div class="md-2" style="margin-left: 20%; margin-right: 20%;">
+                    <label>Crée Par</label>
+                    <input type="text" [(ngModel)]="currentAlertes.creepar" name="creepar" class="form-control">
+                </div>
+
+                <div class="md-2" style="margin-left: 20%; margin-right: 20%;">
+                    <label>Destinataire (s)</label>
+                    <input type="text" [(ngModel)]="currentAlertes.destinataire" name="destinataire" class="form-control">
+                </div>
+
+                <div class="md-2" style="margin-left: 20%; margin-right: 20%;">
+                    <label>Progressions</label>
+                    <input type="text" [(ngModel)]="currentAlertes.progression" name="progression" class="form-control">
+                </div>
+
+                <div class="mt-2"> <button type="submit" (click)="updateAlertes()" class="btn btn-success">Modifer</button> </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<!--  -->

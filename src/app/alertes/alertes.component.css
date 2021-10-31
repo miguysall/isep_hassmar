@@ -1,0 +1,192 @@
+.flexbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.hass-grid {
+    width: 60%;
+}
+
+.card-title h5 {
+    font-size: 12px;
+}
+
+.grid {
+    margin: 10px;
+    border: solid black 1px;
+    height: 140px
+}
+
+.card-title {
+    width: 100%;
+}
+
+.top-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-infmes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-end;
+}
+
+.infmes {
+    border: solid 2px black none;
+    border-radius: 10px;
+    width: 160px;
+}
+
+.infnum {
+    border: solid 1px black;
+    box-shadow: 20px black;
+    padding: 2px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.ifobtn {
+    margin-left: 15%;
+}
+
+.p1 {
+    background: crimson;
+    color: #fff;
+}
+
+.p2 {
+    background: #966c03;
+    color: #fff;
+}
+
+.p3 {
+    background: #40c945;
+    color: #fff;
+}
+
+.p1-1 {
+    color: crimson;
+    margin: 5px;
+}
+
+.p2-2 {
+    color: #C79F38;
+    margin: 5px;
+}
+
+.p3-3 {
+    margin: 5px;
+    color: #56D25B;
+}
+
+.card-body p {
+    text-align: center;
+    color: #51AEDC;
+    font-size: 40px;
+}
+
+.nouvelle_alerte {
+    float: right;
+}
+
+.flebox_export {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-end;
+}
+
+.mp {
+    float: right;
+}
+
+.export_c {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+#pla {
+    margin-top: 8vh;
+}
+
+#plon {
+    margin-top: 20px;
+}
+
+.export_droite {
+    margin-left: 5vh;
+}
+
+.export_b {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+#flexbox_export {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: center center;
+    margin-left: 35vh;
+    margin-right: 30vh;
+}
+
+.carte img {
+    width: 60vh;
+    height: 30vh;
+    margin-left: 60vh;
+}
+
+.carte p {
+    margin-left: 40vh;
+}
+
+.titre {
+    text-align: center;
+    background: gray;
+    margin-left: 30vh;
+    margin-right: 30vh;
+}
+
+.recu {
+    margin-left: 30px;
+}
+
+.recus {
+    margin-left: 40px;
+}
+
+#span {
+    margin-left: 30vh;
+}
+
+.fin_table {
+    background: #fff;
+}
+
+.section_1 {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.suplimantair {
+    width: 100%;
+}

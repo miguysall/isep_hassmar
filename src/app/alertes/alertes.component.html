@@ -1,0 +1,200 @@
+<div class="container">
+    <div class="top-header">
+        <div class="flexbox">
+            <div class="grid hass-grid">
+                <div class="card-title bg-dark p-3">
+                    <h5 class=" text-light">HASSMAR</h5>
+                </div>
+                <div class="card-body">
+                    <p>20</p>
+                </div>
+            </div>
+            <div class="grid hass-grid">
+                <div class="card-title bg-dark p-3">
+                    <h5 class=" text-light">POLICE NATIONAL</h5>
+                </div>
+                <div class="card-body">
+                    <p>20</p>
+                </div>
+            </div>
+            <div class="grid hass-grid">
+                <div class="card-title bg-dark p-3">
+                    <h5 class=" text-light">DIRECTION DES DOUANES</h5>
+                </div>
+                <div class="card-body">
+                    <p>20</p>
+                </div>
+            </div>
+            <div class="grid hass-grid">
+                <div class="card-title bg-dark p-3">
+                    <h5 class=" text-light">MINISTRE DE L'INTERIEUR</h5>
+                </div>
+                <div class="card-body">
+                    <p>20</p>
+                </div>
+            </div>
+            <div class="grid hass-grid">
+                <div class="card-title bg-dark p-3">
+                    <h5 class=" text-light">PORT AUTONOME</h5>
+                </div>
+                <div class="card-body">
+                    <p>20</p>
+                </div>
+            </div>
+        </div>
+        <div class="ifobtn">
+            <div class="grid-infmes">
+                <div class="infmes p1">
+                    <p>Pas encore envoyées: </p>
+                </div>
+                <div class="infnum">
+                    <p class="p1-1">15</p>
+                </div>
+            </div>
+            <div class="grid-infmes">
+                <div class="infmes p2">
+                    <p>En cours: </p>
+                </div>
+                <div class="infnum">
+                    <p class="p2-2">15</p>
+                </div>
+            </div>
+            <div class="grid-infmes">
+                <div class="infmes p3">
+                    <p>Reçus: </p>
+                </div>
+                <div class="infnum">
+                    <p class="p3-3">15</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--FORMULAIRE DE NOUVEAU MESSAGE -->
+
+
+    <!-- MODOL DU FORMULAIRE NOUVEAU D'ALERTES -->
+    <!-- Button to Open the Modal -->
+    <button type="button" routerLink="/add-alertes" class="btn btn-info  nouvelle_alerte m-1" data-toggle="modal" data-target="#myModal">
+Nouvelle alerte
+</button>
+
+
+    <!-- lE MODOLS DU FORMULAIRE DE NOUVEAU D'ALERTE SE TERMINE ICI -->
+
+    <!-- Le modal pour le formulaire d'exporter -->
+    <!-- Trigger the modal with a button  exp-->
+    <button type="button" class="btn btn-info  nouvelle_alerte m-1" data-toggle="modal" data-target="#expModal">Exporter</button>
+
+    <!-- Modal -->
+    <div id="expModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Modal Header</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the modal.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Button to Open the Modal -->
+
+
+    <!-- The Modal -->
+    <div class="modal" id="exporter">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">INFORMATION SUPPLEMENTAIRES</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body suplimantair">
+                    <div class="d-flex bd-highlight">
+                        <div class="p-2 flex-fill bd-highlight">
+                            <p>Intitule alerte</p>
+                            <p>Niveau d'alerte</p>
+                            <p>Creation</p>
+                            <p>Partage</p>
+                            <p>Progression</p>
+                            <p>Description</p>
+                            <p>Latitude</p>
+                            <p>Longitude</p>
+                            <p>Carte</p>
+                        </div>
+                        <div class="p-2 flex-fill bd-highlight">
+                            <p>INTITULE ALERTE N°</p>
+                            <P color="red">Urgent</P>
+                            <p>19 Novembre 2021 à 15:45</p>
+                            <p>19 Novembre 2021 à 15:45</p>
+                            <p>Acce de reception: 1/2</p>
+                            <p>Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. Ad, hic.</p>
+                            <p>14,68°</p>
+                            <p>14,68°</p>
+                            <img src="../../assets/carte.jfif" alt="" width="150px">
+                        </div>
+                        <div class="p-2 flex-fill bd-highlight">
+                            <p>Destinataire (s)</p>
+                            <p>Fichie(s)</p>
+                            <p>Notifications</p>
+                        </div>
+                        <div class="p-2 flex-fill bd-highlight">
+                            <p>Ministaire de l'interieur <br> Direction des Douanes</p>
+                            <p>Capture.png <br> Direction des Douanes</p>
+                            <p>Ministaire de l'interieur <span style="color: rgb(11, 184, 34);">Reçu</span> <br> Direction des Douanes <span style="color: rgb(221, 175, 58);">Pas encor reçu</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Le modal pour le formulaire d'exporter se termine ici -->
+    <br><br><br>
+    <div class="card shadow mb-4">
+        <div class="card-body">
+            <table class="table table-striped">
+                <tr>
+                    <th>Intitule</th>
+                    <th>Niveau d'alertes</th>
+                    <th>Date Alertes</th>
+                    <th> Crée Par</th>
+                    <th>Destinataire (s)</th>
+                    <th>Progressions</th>
+                    <th rowspan="3">Action</th>
+                </tr>
+                <tbody *ngFor="let alertes of alertes">
+                    <tr>
+                        <td>intitule N°{{alertes.idAlertes}}</td>
+                        <td>{{alertes.niveauAlertes}}</td>
+                        <td>{{alertes.dateAlertes | date:'dd/MM/yyyy'}}</td>
+                        <td>{{alertes.creepar}}</td>
+                        <td>{{alertes.destinataire}}</td>
+                        <td>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">{{alertes.progression}}</div>
+                            </div>
+                        </td>
+                        <td>
+                            <a class="btn btn-info " (click)="supprimerAlertes(alertes)"><img src="../../assets/delete.png" alt="" width="20px" height="20px"></a>
+                            <a class="btn btn-info m-2" [routerLink]="['/updateAlertes',alertes.idAlertes]"><img src="../../assets/edit.png" alt="" width="20px" height="20px"></a>
+                            <button type="button" class="btn btn-info  nouvelle_alerte mt-2" data-toggle="modal" data-target="#exporter"><img src="../../assets/oil.jfif" alt=""  width="20px" height="20px"></button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

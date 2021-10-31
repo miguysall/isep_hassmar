@@ -1,0 +1,57 @@
+<!-- The Modal -->
+<div class="modal" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Nouvelle Alerte</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                <form>
+                    <div class="md-4">
+                        <label>ID Alertes</label>
+                        <input type="number" [(ngModel)]="newAlertes.idAlertes" name="idAlertes" class="form-control">
+                    </div>
+                    <div class="md-4 ">
+                        <label>Niveau d'alertes</label>
+                        <select class="form-select" aria-label="Default select example" [(ngModel)]="newAlertes.niveauAlertes" name="niveauAlertes" class="form-control">
+                          <option selected>Urgent</option>
+                          <option>Critique</option>
+                          <option>Mineur</option>
+                          <option>Majeur</option>
+                        </select>
+                    </div>
+                    <div class="md-4">
+                        <label>Date Alertes</label>
+                        <input type="date" [(ngModel)]="newAlertes.dateAlertes" name="dateAlertes" class="form-control">
+                    </div>
+                    <div class="md-4">
+                        <label>Crée Par</label>
+                        <input type="text" [(ngModel)]="newAlertes.creepar" name="creepar" class="form-control">
+                    </div>
+                    <div class="md-4">
+                        <label>Destinataire (s)</label>
+                        <input type="text" [(ngModel)]="newAlertes.destinataire" name="destinataire" class="form-control">
+                    </div>
+                    <div class="md-4">
+                        <label>Progressions</label>
+                        <input type="number" [(ngModel)]="newAlertes.progression" name="progression" class="form-control">
+                    </div>
+                    <div class="mt-2"> <button type="submit" (click)="addAlertes()" class="btn btn-success">Ajouter</button> </div>
+                </form>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<app-alertes></app-alertes>
