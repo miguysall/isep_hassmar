@@ -41,13 +41,21 @@
                         <label>Progressions</label>
                         <input type="number" [(ngModel)]="newAlertes.progression" name="progression" class="form-control">
                     </div>
-                    <div class="mt-2"> <button type="submit" (click)="addAlertes()" class="btn btn-success">Ajouter</button> </div>
+                    <div class="md-4">
+                        <label>Latitude</label>
+                        <input type="number" [(ngModel)]="newAlertes.latitude" name=" latitude" class="form-control ">
+                    </div>
+                    <div class="md-4">
+                        <label>Latitude</label>
+                        <input type="number" [(ngModel)]="newAlertes.longitude" name=" longitude" class="form-control ">
+                    </div>
+                    <div class="mt-2 "> <button type="submit " (click)="addAlertes() " class="btn btn-success ">Ajouter</button> </div>
                 </form>
             </div>
 
             <!-- Modal footer -->
-            <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            <div class="modal-footer ">
+                <button type="button " class="btn btn-danger " data-dismiss="modal ">Close</button>
             </div>
 
         </div>

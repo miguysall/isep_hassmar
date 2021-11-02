@@ -13,10 +13,10 @@ export class AlertesService {
   alertes! : Alertes[];
 
   constructor() { this.alertes! = [
-    {idAlertes : 1, niveauAlertes : "Urgent", dateAlertes : new Date("01/14/2021"),  creepar : "Police",  destinataire : "Hassmar", progression : 32},
-    {idAlertes : 2, niveauAlertes : "Critique", dateAlertes : new Date("01/19/2021"),  creepar : "Douane",  destinataire : "Hassmar", progression : 60},
-    {idAlertes : 3, niveauAlertes : "Mineur", dateAlertes : new Date("01/14/2021"),  creepar : "Gendarmerie",  destinataire : "Hassmar", progression : 10},
-    {idAlertes : 4, niveauAlertes : "Majeur", dateAlertes : new Date("01/14/2011"),  creepar : "Police",  destinataire : "Hassmar", progression : 49},
+    {idAlertes : 1, niveauAlertes : "Urgent", dateAlertes : new Date("01/14/2021"),  creepar : "Police",  destinataire : "Hassmar", progression : 32, latitude:14.12, longitude: 17.03},
+    {idAlertes : 2, niveauAlertes : "Critique", dateAlertes : new Date("01/19/2021"),  creepar : "Douane",  destinataire : "Hassmar", progression : 60, latitude:10.12, longitude: 12.03},
+    {idAlertes : 3, niveauAlertes : "Mineur", dateAlertes : new Date("01/14/2021"),  creepar : "Gendarmerie",  destinataire : "Hassmar", progression : 10, latitude:11.12, longitude: 7.03},
+    {idAlertes : 4, niveauAlertes : "Majeur", dateAlertes : new Date("01/14/2011"),  creepar : "Police",  destinataire : "Hassmar", progression : 49, latitude: 5.12, longitude: 3.03},
 ]; }
 listeAlertes():Alertes[]
 {return this.alertes; }

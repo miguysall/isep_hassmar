@@ -6,4 +6,6 @@ export class Alertes {
   creepar!: string;
   destinataire!: string;
   progression!: number;
+  latitude!: number;
+  longitude!: number;
 }

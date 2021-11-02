@@ -34,12 +34,16 @@
                     <label>Progressions</label>
                     <input type="text" [(ngModel)]="currentAlertes.progression" name="progression" class="form-control">
                 </div>
-
+                <div class="md-2" style="margin-left: 20%; margin-right: 20%;">
+                    <label>Latitude</label>
+                    <input type="number" [(ngModel)]="currentAlertes.latitude" name="latitude" class="form-control">
+                </div>
+                <div class="md-2" style="margin-left: 20%; margin-right: 20%;">
+                    <label>Longitude</label>
+                    <input type="number" [(ngModel)]="currentAlertes.longitude" name="longitude" class="form-control">
+                </div>
                 <div class="mt-2"> <button type="submit" (click)="updateAlertes()" class="btn btn-success">Modifer</button> </div>
             </div>
         </form>
     </div>
 </div>
-
-
-<!--  -->
